@@ -1,32 +1,77 @@
 <html>
     <head>
-            <title>Here's Your HTML!</title>
-            <h1>Hockey and HTML?</h1>
+        
+        <title>Here's Your HTML!</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <style> 
+        body {
+            background-image: url("file:///C:/Users/User/lc101/html-me-something/images/NYRWall.jpg");
+        }
+        </style>
     </head>
 
     <body>
-        <p>So, I was asked to make some HTML and jazz it up with some CSS, and here's what I came up with.</p>
-        <p>Whether you know it already or not, I'm here to tell you that right now there is only one New York team for me.</p>
-        <p>And that team is the <a href="https://www.nhl.com/rangers">New&nbspYork&nbspRangers!</a></p>
-        <img src="file:///C:/Users/User/lc101/html-me-something/images/NYRBlue.jpg" alt="New York Rangers Photo">
-        <p>So, I know what you're thinking, 'Hockey? Who cares about hockey?'</p>
-        <p>You wanna know who?</p>
-        <p>THIS GUY!!!</p>
-        <img src="file:///C:/Users/User/lc101/html-me-something/images/JATRangers.jpg" alt="Yours Truly">
-        <p>Yep, that's right! Yours Truly, in my Beukeboom jersey and Rangers hat, standing in front of the Rangers game (on the TV, unfortunately).</p>
-        <p>Now for those of you unfamiliar with The World's Most Famous Arena, this is a pic of Madison Square Garden, the home of the New York Rangers!</p>
-        <img src="file:///C:/Users/User/lc101/html-me-something/images/MSG.jpg" alt="MSG">
-        <p>Yes, they know it's round, but that's not what it's named for. And as you can see, it's lit up in all it's Blue, Red, and White Glory!</p>
-        <p>(Rumor has it that there's some other team that plays basketball or something there, but I couldn't care any &lt I already don't)</p>
-        <p>How many times have I been to a Ranger game at The Garden? I really can't recall, and unfortunately due to a tragic storage unit mishap, I've lost all my ticket stubs, but there were pleanty of those!</p>
-        <p>So, if you were wondering why my phone makes a funny foghorn sound occasionally, followed by a "GO RANGERS!" fist-pump from me &amp my kids, it's because they just scored a goal.</p>
-        <p>And if you see me checking my phone like a 13 year old girl on SnapCrack (not mentioning any names here), it's because as much as I enjoy the company of others, well, I've got priorities...</p>
-        <article>
-                <h1>New York Rangers</h1>
-                <p>The New York Rangers are the NHL team that calls Madison Square Garden home. All images are &copy of the respective copyright holders.</p>
-              </article>
-        
-        <footer>LGR!</footer>
+        <div class="container">
+            
+            <div class="header">
+                <h1>Hockey and HTML?</h1>
+            </div>
+
+            <div class="content">
+                
+                <div class="intro">
+                    
+                    <p>So, I was asked to make some HTML and jazz it up with some CSS, and here's what I 
+                        came up with. Whether you know it already or not, I'm here to tell you that right 
+                        now there is only one New York team for me.</p>
+                    <p>And that team is the <a id="nyr" href="https://www.nhl.com/rangers">New&nbspYork&nbspRangers!</a></p>
+                    
+                </div>
+                
+                <div id="photo1">
+                    <img src="file:///C:/Users/User/lc101/html-me-something/images/NYRBlue.jpg" alt="New York Rangers Photo">
+                </div>
+                
+                <div class="main">
+                    <p>So, I know what you're thinking, 'Hockey? Who cares about hockey?'<br>
+                    <br>
+                    You wanna know who?<br>
+                    <br>
+                    THIS GUY!!!</p>
+                    <img src="file:///C:/Users/User/lc101/html-me-something/images/JATRangers.jpg" alt="Yours Truly">
+                    <p>Yep, that's right! Yours Truly, in my Beukeboom jersey and Rangers hat, standing in 
+                    front of the Rangers game (on the TV, unfortunately).<br>
+                    <br>
+                    Now for those of you unfamiliar with The World's Most Famous Arena, this is a pic 
+                    of Madison Square Garden, the home of the New York Rangers!</p>
+                    <div id="msg">
+                        <img src="file:///C:/Users/User/lc101/html-me-something/images/MSG.jpg" alt="MSG">
+                    </div>
+                    <p>Yes, they know it's round, but that's not what it's named for. And as you can see, 
+                    it's lit up in all it's Blue, Red, and White Glory!
+                    (Rumor has it that there's some other team that plays basketball or something there, 
+                    but I couldn't care any &lt I already don't)<br>
+                    <br>
+                    How many times have I been to a Ranger game at The Garden? I really can't recall, 
+                    and unfortunately due to a tragic storage unit mishap, I've lost all my ticket stubs, 
+                    but there were plenty of those! So, if you were wondering why my phone makes a funny 
+                    foghorn sound occasionally, followed by a "GO RANGERS!" fist-pump from me &amp my kids, 
+                    it's because they just scored a goal. And if you see me checking my phone like a 13 year 
+                    old girl on SnapCrack (not mentioning any names here), it's because as much as I enjoy 
+                    the company of others, well, I've got priorities...</p>
+
+                    <article class="article">
+                        <h1>New York Rangers</h1>
+                        <p>The New York Rangers are the NHL team that calls Madison Square Garden home.<br>
+                            All images are &copy of the respective copyright holders.</p>
+                    </article>
+
+            </div>
+            
+            <div id="footer">
+            <footer>LGR!</footer>
+            </div>
+        </div>
     </body>
 
 </html>
