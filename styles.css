@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(211, 56, 56);
+    font-size: 20px;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+.container {
+    background-color: rgb(219, 57, 57);
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white
+}
+
+.header {
+    background-color: rgb(54, 111, 233);
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.intro {
+    background-color: rgb(54, 111, 233);
+    width: 280px;
+    float: left;
+    text-align: justify;
+    position: relative;
+    left: 35px;
+    top: 50px;
+    padding: 20px;
+}
+
+#photo1 {
+    background-color: rgb(54, 111, 233);
+    float: right;
+    width: auto;
+    padding: 20px;
+    position: relative;
+    right: 35px;
+}
+
+.main {
+    clear: both;
+    background-color: rgb(54, 111, 233);
+    width: 800px;
+    padding: 20px 20px 0px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50px;
+}
+
+#footer {
+    text-align: center;
+    font-size: 150px;
+    color: white;
+    position: relative;
+    top: 20px;
+}
+
+#msg {
+    margin-right: auto;
+}
+
+#nyr {
+    color: white
+}
